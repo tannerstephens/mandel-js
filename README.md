@@ -1,6 +1,6 @@
 # Mandel-JS
 
-A basic javascript mandelbrot set generator
+A basic javascript mandelbrot set generator. Based on a previous project, [pixi-mandel](https://github.com/tannerstephens/pixi-mandel
 
 ## Getting Started
 
