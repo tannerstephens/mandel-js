@@ -17,7 +17,7 @@ class App {
   }
 
   setup() {
-    const gpu = new GPU({mode: 'cpu'});
+    const gpu = new GPU();
 
     const randomColor = () => [Math.floor(Math.random()*255), Math.floor(Math.random()*255), Math.floor(Math.random()*255)];
 
