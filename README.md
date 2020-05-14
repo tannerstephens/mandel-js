@@ -1,6 +1,6 @@
-# yarnTemplate
+# Mandel-JS
 
-A fancy template for all your yarn/webpack based javascript needs
+A basic javascript mandelbrot set generator
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 Clone the repo down to your machine
 
 ```
-git clone https://github.com/tannerstephens/yarnTemplate
+git clone https://github.com/tannerstephens/mandel-js
 ```
 
 Install all dependencies
@@ -32,10 +32,6 @@ yarn start
 
 Visit [localhost:3000](http://localhost:3000) and see it running!
 
-### Post-Installation
-
-Setup projectSettings.js with the appropriate site title and repo url
-
 ## Deployment
 
 Build for production
@@ -49,6 +45,7 @@ See the dist/ folder for static output files.
 ## Built With
 
 * [webpack](https://webpack.js.org/) - Bundling
+* [GPU.js](https://gpu.rocks/) - GPU acceleration of mandelbrot calculations
 
 ## Authors
 
