@@ -62,7 +62,7 @@ class App {
     const start = randomColor();
     const end = randomColor();
 
-    mandel(80, innerWidth, innerHeight, start, [0,255,0]);
+    mandel(80, innerWidth, innerHeight, start, end);
     this.canvas = mandel.canvas;
 
 
